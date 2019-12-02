@@ -1,0 +1,15 @@
+.collapse {overflow: inherit;}
+.accordion .collapse{overflow:hidden;}
+.imageGallery a.fancybox, .imageGallery .fancybox .overlay {
+  filter: alpha(opacity=60) !important;
+}
+.hover_img .block_opacity {
+    background: #000;
+    filter: alpha(opacity=60) !important;
+}
+.top_phone p {
+    font-size: 12px;
+}
+.bg_top{
+    height: 490px;
+}

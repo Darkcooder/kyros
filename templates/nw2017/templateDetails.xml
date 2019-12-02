@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.4" type="template" client="site">
+  <name>nw2017</name>
+  <creationDate>18/12/2016</creationDate>
+  <author>Darkcooder</author>
+  <authorEmail>darkcooder@gmail.com</authorEmail>
+  <authorUrl>http://intent.guide</authorUrl>
+  <copyright>http://intetn.guide</copyright>
+  <license>Free</license>
+  <version>1.0</version>
+<description>Template for Chota Oxota quest</description>
+  <files>
+    <filename>component.php</filename>
+    <filename>error.php</filename>
+    <filename>favicon.ico</filename>
+    <filename>index.html</filename>
+    <filename>index.php</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>template_thumbnail.png</filename>
+    <filename>template_preview.png</filename>
+    <folder>css/</folder>
+    <folder>html/</folder>
+    <folder>images/</folder>
+  </files>
+  <positions>
+    <position>title</position>
+    <position>menu</position>
+	<position>bar</position>
+  </positions>
+	<config>
+		<fields name="params">
+			<fieldset name="sitename" label="TPL_QUASAR_SITENAME_SETTINGS_TAB">
+				<field name="topheight" type="text" class="input-text" label="TPL_QUASAR_TOPHEIGHT_LABEL" default="120" description="TPL_QUASAR_TOPHEIGHT_DESC" size="10" />
+				<field name="keepfixed" class="switch" type="checkbox" label="Turn ON/OFF Left Bar Items Position Fixed" description="If turned on left hand side bar items will be kept fixed" value="true" />
+				
+				
+				<field type="spacer" class="inline-help" label="TPL_QUASAR_SITENAMEIMAGE_HELP" />
+				
+				<field name="logoimage" label="Logo Image" type="media" directory="images" description="Select Logo Image. Make sure your logo has the same size as provided in 'Tile Size' field, for example 'Tile Size: 120' then your logo should has 120px x 120px." />
+				
+
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>
+
+
+
+
+

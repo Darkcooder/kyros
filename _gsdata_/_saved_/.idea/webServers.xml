@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d3b35142-3939-46bd-bfde-44ec37510fa5" name="intent.guide" url="http://intent.guide">
+        <fileTransfer host="intent.guide" port="22" rootFolder="/var/www/webmaster/data/www/intent.guide" accessType="SFTP" username="webmaster">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

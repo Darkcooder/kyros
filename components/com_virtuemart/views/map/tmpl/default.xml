@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="My Map">
+        <message>Map of places, tasks and peoples</message>
+    </layout>
+    <state>
+        <fields name="request">
+        </fields>
+    </state>
+</metadata>

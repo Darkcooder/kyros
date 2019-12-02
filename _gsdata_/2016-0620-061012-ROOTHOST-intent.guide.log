@@ -1,0 +1,24 @@
+2016-06-20 06:10:18: -- Analysis Started by On File Change 1st Full Analyze
+2016-06-20 06:27:43: Two items on Right side are named the same after normalization and lower-casing: '/media/mod_languages/images/si_lk.gif' vs '/media/mod_languages/images/si_LK.gif'
+2016-06-20 06:31:00: Во время Анализа возникли ошибки. Нажмите кнопку Ошибки для их просмотра.
+2016-06-20 06:31:00: Изменений: 2, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0/0, Ошибок: 1, All: 13816
+2016-06-20 06:31:00: Right to Left: Copy File: 1 
+2016-06-20 06:31:01: == Sync Started by On File Change 1st Full Analyze
+2016-06-20 06:31:02: Скопировано поверх 'sftp://intent.guide/var/www/webmaster/data/www/intent.guide/logs/error.php' -> 'C:/Users/Владимир/OneDrive/IntentGuide/www/logs/error.php'
+2016-06-20 06:31:02: /media/mod_languages/images/si_LK.gif: Analyze error: Two items on Right side are named the same after normalization and lower-casing: '/media/mod_languages/images/si_lk.gif' vs '/media/mod_languages/images/si_LK.gif'
+2016-06-20 06:31:04: ===== Синхронизация завершена. Время 00:00:03, Скорость: 105 КБ/s файлов/сек =====, Синхронизировано: 1, Ошибок: 0
+2016-06-20 06:31:05: -- Analysis Started by On File Change PostSync Re-Analyze
+2016-06-20 06:31:05: Изменений: 8, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0/0, Ошибок: 0, All: 13823
+2016-06-20 06:31:05: Left to Right: Copy File: 7 
+2016-06-20 06:31:05: Right to Left: Copy File: 1 
+2016-06-20 06:31:05: == Sync Started by On File Change PostSync Re-Analyze
+2016-06-20 06:31:06: Создана Папка 'sftp://intent.guide/var/www/webmaster/data/www/intent.guide/.idea'
+2016-06-20 06:31:06: Создана Папка 'sftp://intent.guide/var/www/webmaster/data/www/intent.guide/.idea/copyright'
+2016-06-20 06:31:06: Скопирован новый 'C:/Users/Владимир/OneDrive/IntentGuide/www/.idea/copyright/profiles_settings.xml' -> 'sftp://intent.guide/var/www/webmaster/data/www/intent.guide/.idea/copyright/profiles_settings.xml'
+2016-06-20 06:31:07: Скопирован новый 'C:/Users/Владимир/OneDrive/IntentGuide/www/.idea/misc.xml' -> 'sftp://intent.guide/var/www/webmaster/data/www/intent.guide/.idea/misc.xml'
+2016-06-20 06:31:08: Скопирован новый 'C:/Users/Владимир/OneDrive/IntentGuide/www/.idea/modules.xml' -> 'sftp://intent.guide/var/www/webmaster/data/www/intent.guide/.idea/modules.xml'
+2016-06-20 06:31:09: Скопирован новый 'C:/Users/Владимир/OneDrive/IntentGuide/www/.idea/workspace.xml' -> 'sftp://intent.guide/var/www/webmaster/data/www/intent.guide/.idea/workspace.xml'
+2016-06-20 06:31:09: Скопирован новый 'C:/Users/Владимир/OneDrive/IntentGuide/www/.idea/www.iml' -> 'sftp://intent.guide/var/www/webmaster/data/www/intent.guide/.idea/www.iml'
+2016-06-20 06:31:10: Скопирован новый 'sftp://intent.guide/var/www/webmaster/data/www/intent.guide/media/mod_languages/images/si_LK.gif' -> 'C:/Users/Владимир/OneDrive/IntentGuide/www/media/mod_languages/images/si_LK.gif'
+2016-06-20 06:31:12: ===== Синхронизация завершена. Время 00:00:07, Скорость: 29,1 КБ/s файлов/сек =====, Синхронизировано: 8, Ошибок: 0
+2016-06-20 06:31:12: 

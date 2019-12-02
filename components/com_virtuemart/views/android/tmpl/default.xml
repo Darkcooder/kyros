@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Android">
+        <message>Android Ajax Driver</message>
+    </layout>
+    <state>
+        <fields name="request">
+            <fieldset name="request">
+                <field name="format" type="hidden" default="json"/>
+            </fieldset>
+        </fields>
+    </state>
+</metadata>

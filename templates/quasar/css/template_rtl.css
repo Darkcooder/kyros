@@ -1,0 +1,184 @@
+body { 
+	direction: rtl;
+}
+
+#search-position #vmCartModule, #search-position form, #search-position .button, #currency, #currency input.button, #quick-menu, #log-panel, .show-cart, .show-both, .floatright, span.floatright, .icons {
+	float: left;
+}
+
+.dk_container, .moduletable_menu ul.menu li a img, .moduletable_menu_light ul.menu li a img, .menu-nav, .menu-nav li, .menu-nav li li img, #search-position .inputbox, span.addtocart-button, span.quantity-box, span.quantity-controls, .icons > span, .output-billto span.values, .output-shipto span.values, .floatleft, span.floatleft, .output-shipto input[type="checkbox"] {
+	float: right;
+}
+
+#search-position .search, .show-cart {
+	margin-left: 4px;
+}
+
+.h-pr-title, .h-pr-details, .product-price, .productdetails-view .product-short-description, p.product_s_desc {
+	text-align: right;
+}
+
+.icons a {
+	margin-left: 0px;
+	margin-right: 8px;
+}
+
+.camera_target {
+	direction: ltr;
+}
+
+.camera_wrap .camera_pag .camera_pag_ul li, .product-sl-handler ol li, .icons a {
+	text-indent: 9999px;
+	overflow: hidden;
+}
+
+.modal-footer, .product-sl-handler ol {
+	text-align: left;
+}
+
+#currency {
+	padding: 6px 15px 3px 5px;
+}
+
+.moduletable_menu ul.menu li a img, .moduletable_menu_light ul.menu li a img {
+	padding: 3px 0px 0px 12px!important;
+}
+
+.menu-nav li li img {
+	margin: 1px 0px 10px 6px;
+}
+
+.sf-sub-indicator {
+	left: .70em;
+	right: auto;
+}
+
+#menu .menu-nav ul li a:hover .sf-sub-indicator, #menu .menu-nav ul li.sfHover > a .sf-sub-indicator, #menu .menu-nav ul li a .sf-sub-indicator {
+	border-left-color: transparent !important;
+	border-right-color: #333333 !important
+}
+
+.social-links.menu-nav ul .top-arrow {
+	margin: -26px 0px 0px 12px !important;
+	float: left !important;
+}
+
+#quick-menu li {
+	padding: 0px 26px 0px 0px !important;
+}
+
+#log-panel li {
+	padding: 5px 26px 0px 0px !important;
+}
+
+.span2.sp20 {
+	margin-right: 1% !important;
+}
+
+.span2.sp20.sl-item-0 {
+	margin-right: 0 !important;
+}
+
+.moduletable_menu h3 {
+	background-position: 0% 50%;
+}
+
+.dk_options {
+	left: -50%;
+	right: auto;
+}
+
+.social-links {
+	float: left;
+}
+
+#social-links {
+	left: -6px;
+	right: auto;
+}
+
+.menu-nav li:hover ul, .menu-nav li.sfHover ul {
+	right: -6px;
+	left: auto;
+}
+
+.menu-nav ul .top-arrow {
+	margin: -26px 12px 0px 0px !important;
+	float: right !important;
+}
+
+.dropdown-menu {
+	left: auto;
+	right: 0px;
+}
+
+.VmArrowdown {
+	float: left;
+	left: 14px;
+	right: auto;
+}
+
+.cart-button .popover {
+	left: auto;
+	right: -134px;
+}
+
+.cart-button .popover.bottom .arrow {
+	right: 150px;
+}
+
+#vmCartModule div.panel2 {
+	left: -1px;
+	right: auto;
+}
+
+.cartpanel span.closecart, .cartpanel span.closecart:hover {
+	left: 20px;
+	right: auto;
+}
+
+.cartpanel .show-cart-link {
+	padding: 28px 20px 20px 0px;
+}
+
+.cartpanel .product-cart-row .prices { 
+	float: left !important; 
+}
+
+.cartpanel .product-cart-row .product_name {
+	float: left;
+	margin-left: 10px;
+}
+
+ul.vmmanufacturer li, ul.vmmanufacturer { border: none; }
+
+.output-shipto input[type="checkbox"] {
+	margin-left: 10px;
+}
+
+@media (min-width: 980px) and (max-width: 1199px) { 
+	#menu #nav ul ul { right: 13.5em !important; }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	#menu #nav ul ul { right: 10em !important; }
+}
+
+@media (max-width: 767px) { 
+	body {
+		margin: 0px 7px;
+	}
+	
+	#menu-handler .span2, #menu-handler .span10 {
+		float: right;
+		margin: 0px;
+	}
+	a#menupanel {
+		float: right;
+	}
+	
+	#search-position, #slideshow-handler-bg, .row-fluid [class*="span"] {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}

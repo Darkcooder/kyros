@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.4" type="template" client="site">
+  <name>quasar</name>
+  <creationDate>24/08/2015</creationDate>
+  <author>virtuemarttemplates.net</author>
+  <authorEmail>team@virtuemarttemplates.net</authorEmail>
+  <authorUrl>http://www.virtuemarttemplates.net</authorUrl>
+  <copyright>http://virtuemarttemplates.net/terms-of-service.html</copyright>
+  <license>Commercial</license>
+  <version>12.04.2016 3.5.1/3.0.16</version>
+<description>&lt;p style='text-align:left;clear:both;width:100%;'&gt;&lt;img src='../templates/quasar/template_thumbnail.png' style='text-align:left;float:none;' /&gt;&lt;/p&gt;&lt;p style='font-size:13px;line-height:24px;font-weight:bold;color:#ff0000;text-align:left;'&gt;TEMPLATE VERSION: 12.04.2016 3.5.1/3.0.16&lt;/p&gt;
+	&lt;p style='font-size:13px;line-height:18px;text-align:left;'&gt;
+    Joomla template developed and released by &lt;a href='http://www.virtuemarttemplates.net/'&gt;www.virtuemarttemplates.net&lt;/a&gt;. This Joomla template is not free or public and can not be resold or redistributed. By downloading and using this template you have agreed to use the template in accordance with the terms of service outlined at &lt;a href='http://www.virtuemarttemplates.net/'&gt;www.virtuemarttemplates.net&lt;/a&gt; &lt;/p&gt; &lt;p style='text-align:left;font-size:13px;line-height:20px;'&gt;
+    - Looking for support? Go to &lt;a href='http://www.virtuemarttemplates.net/Support.html' target='blank'&gt;virtuemarttemplates.net Support&lt;/a&gt; and open a ticket &lt;br /&gt;
+    - &lt;a href='http://www.virtuemarttemplates.net/Template-Customization.html' target='blank'&gt;virtuemarttemplates.net - Template Customization &lt;/a&gt; if you need template customization services &lt;br /&gt;
+    - &lt;a href='http://www.virtuemarttemplates.net/' target='blank'&gt;virtuemarttemplates.net &lt;/a&gt; for templates news, template upgrades and much more ... &lt;br /&gt;
+    &lt;/p&gt;
+    <![CDATA[<style type="text/css">.row-fluid.form-horizontal-desktop .span6,#details .span3,#details .span9{float:none !important;width:100% !important;margin:0px !important;}.form-horizontal .control-group{margin-bottom:0px !important;padding:8px 0px;border-bottom:1px solid #dddddd;}@media (max-width:480px){.spacer .inline-help label{width:180px !important;min-width:180px !important;}label{width:100% !important; max-width:100%; min-width:100%;}}@media (min-width:481px) and (max-width:767px){.spacer .inline-help label{width:380px !important;min-width:380px !important;}label,.control-label,.controls{display:inline-block !important;}.control-label{padding-right:5px !important;}}@media (min-width:768px){.nav-tabs{width:21%;margin-right:0;float:left;border-bottom:none;position:static;margin-top:10px;}.nav-tabs>li{float:none !important; margin-bottom:3px;}.nav-tabs>li>a{border:none; -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background:#f5f5f5;margin:0px !important;}.nav-tabs>.active>a,.nav-tabs>.active>a:hover,.nav-tabs>.active>a:focus{color:#ffffff;background-color:#2b80c1;border:none;}.tab-content{background:#ffffff;width:75%;float:left;margin-left:1%;padding:5px 1% 20px 1%;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.18);-moz-box-shadow:0px 0px 5pxx rgba(0,0,0,0.18);box-shadow:0px 0px 5px rgba(0,0,0,0.18);border:1px solid #dddddd;min-height:360px;}}@media (max-width:767px){.nav-tabs{border-bottom:none;}.nav-tabs>li{float:none !important;margin-bottom:3px;}.nav-tabs>li>a{border:none; -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background:#f5f5f5;margin:0px !important;}.nav-tabs>.active>a,.nav-tabs>.active>a:hover,.nav-tabs>.active>a:focus{color:#ffffff;background-color:#2b80c1;border:none;}}@media (min-width:768px) and (max-width:979px){.spacer .inline-help label{width:460px !important;min-width:460px !important;}label,.control-label,.controls{display:inline-block !important;}.control-label{padding-right:5px !important;}}@media (min-width:980px){.spacer .inline-help label{width:610px !important;min-width:610px !important;}label,.control-label,.controls{display:inline-block !important;}.control-label{padding-right:5px !important;}}.spacer .inline-help label{display:block; padding:14px 20px !important; margin:0px 0px 5px 0px !important; background:#2b80c1; color:#ffffff; text-shadow:-1px -1px 0px rgba(0,0,0,0.2);box-shadow:2px 2px 3px rgba(0,0,0,0.18);-moz-box-shadow:2px 2px 3px rgba(0,0,0,0.18);-webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.18);border-bottom-left-radius:3px 3px;border-bottom-right-radius:3px 3px;border-top-left-radius:3px 3px !important;border-top-right-radius:3px 3px !important;-moz-border-radius:3px 3px 3px 3px;}div.label{display:block !important;background:#f5f5f5 !important;border:1px solid #eeeeee;padding:10px;width:400px !important;min-width:400px !important;max-width:400px !important;-webkit-box-shadow:#dedede 0px 0px 0px 1px,rgba(0,0,0,0.296875) 1px 2px 5px;box-shadow:#dedede 0px 0px 0px 1px,rgba(0,0,0,0.296875) 1px 2px 5px;}label{width:160px !important; max-width:160px; min-width:160px;}
+	.input-color { padding: 3px !important; font-size: 12px;background-image: url(../templates/quasar/images/color_wheel.png);background-position: 4px 5px;background-repeat: no-repeat;cursor: pointer;text-quasar: uppercase;border: 1px solid #CCC !important;border-bottom-left-radius: 5px 5px !important;border-bottom-right-radius: 5px 5px !important;border-top-left-radius: 5px 5px !important;border-top-right-radius: 5px 5px !important;padding: 5px 5px 5px 26px !important;}
+	.input-text {background-image: #ffffff;border: 1px solid #CCC !important;border-bottom-left-radius: 5px 5px !important;border-bottom-right-radius: 5px 5px !important;border-top-left-radius: 5px 5px !important;border-top-right-radius: 5px 5px !important;padding: 5px 5px 5px 5px !important;}
+	.pane-sliders {padding: 6px;background: #ffffff;box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.28);-moz-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.28);-webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.28);border-bottom-left-radius: 6px 6px;border-bottom-right-radius: 6px 6px;border-top-left-radius: 6px 6px !important;border-top-right-radius: 6px 6px !important;-moz-border-radius:6px 6px 6px 6px;}
+	.pane-sliders .panel h3 {font-size: 15px;margin-bottom: 5px;text-quasar: uppercase;font-weight: normal;padding: 9px 9px;text-shadow: 1px 1px 3px rgba(0,0,0, 0.4);border: 1px solid #cccccc !important;box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.18);-moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.18);-webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.18);border-bottom-left-radius: 3px 3px;border-bottom-right-radius: 3px 3px;border-top-left-radius: 3px 3px !important;border-top-right-radius: 3px 3px !important;-moz-border-radius:3px 3px 3px 3px;}
+	.pane-sliders .panel h3 a {color: #444444;}
+	.pane-sliders .panel {border: 0px;}	
+	ul.adminformlist, ul.adminformlist li {clear: both; padding: 5px 0px !important;display:block !important;height:100%; }
+	.switch{cursor: pointer;display: inline-block;overflow: hidden;position: relative;width: 105px;height: 30px;vertical-align: middle;}
+	.switch .background {background: url('../templates/quasar/utils/images/switch-background.png');display: block;position: absolute;top: 0;left: 0;width: 160px;height: 30px;}
+	.switch .mask {background: url('../templates/quasar/utils/images/switch-mask.png');display: block;position: absolute;top: 0;left: 0;width: 105px;height: 30px;}
+    </style>
+	<script type="text/javascript" src="../templates/quasar/utils/admin-js.js"></script>
+    <script type="text/javascript" src="../templates/quasar/utils/js_colourchanger/jscolor.js"></script>]]>
+  </description>
+  <files>
+    <filename>component.php</filename>
+    <filename>error.php</filename>
+    <filename>favicon.ico</filename>
+    <filename>index.html</filename>
+    <filename>index.php</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>template_thumbnail.png</filename>
+    <filename>template_preview.png</filename>
+    <folder>css/</folder>
+    <folder>html/</folder>
+    <folder>images/</folder>
+    <folder>language/</folder>
+    <folder>js/</folder>
+    <folder>utils/</folder>
+  </files>
+  <positions>
+    <position>top-left-1</position>
+    <position>top-left-2</position>
+	<position>cart</position>
+	<position>welcome</position>
+	<position>top-header</position>
+	<position>info-line</position>
+    <position>position-7</position>
+    <position>bottom-left-1</position>
+    <position>bottom-left-2</position>
+    <position>top-right-1</position>
+    <position>top-right-2</position>
+    <position>position-6</position>
+    <position>bottom-right-1</position>
+    <position>bottom-right-2</position>
+    <position>builtin-slideshow</position>
+    <position>slideshow</position>
+	<position>header-left</position>
+	<position>header-right</position>
+	<position>search</position>
+    <position>quick-menu</position>
+    <position>quick-contact</position>
+	<position>quick-categories</position>
+	<position>tabs-1</position>
+    <position>top-long</position>
+    <position>top-1</position>
+    <position>top-2</position>
+    <position>top-3</position>
+    <position>top-4</position>
+    <position>top-5</position>
+    <position>top-6</position>
+    <position>top-7</position>
+    <position>top-8</position>
+    <position>top-9</position>
+    <position>top-10</position>
+    <position>top-11</position>
+    <position>top-12</position>
+    <position>top-a</position>
+    <position>top-b</position>
+    <position>top-c</position>
+    <position>top-d</position>
+    <position>loginform</position>
+    <position>position-3</position>
+	<position>position-2</position>
+    <position>position-1</position>
+    <position>position-0</position>
+    <position>bottom-long</position>
+    <position>bottom-1</position>
+    <position>bottom-2</position>
+    <position>bottom-3</position>
+    <position>bottom-4</position>
+    <position>bottom-5</position>
+    <position>bottom-6</position>
+    <position>bottom-7</position>
+    <position>bottom-8</position>
+    <position>bottom-9</position>
+    <position>bottom-10</position>
+    <position>bottom-11</position>
+    <position>bottom-12</position>
+    <position>bottom-a</position>
+    <position>bottom-b</position>
+    <position>bottom-c</position>
+    <position>bottom-d</position>
+    <position>footer</position>
+    <position>footer-left</position>
+    <position>footer-right</position>
+    <position>debug</position>
+  </positions>
+  <languages folder="language">
+    <language tag="en-GB">en-GB/en-GB.tpl_quasar.ini</language>
+    <language tag="en-GB">en-GB/en-GB.tpl_quasar.sys.ini</language>
+  </languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basics" label="TPL_QUASAR_BASIC_SETTINGS_TAB">
+				<field type="spacer" class="inline-help" label="TPL_QUASAR_WELCOME_LABEL" />
+				<field name="contentfontsize" class="input-text" type="text" default="14px" label="TPL_QUASAR_CONTENTFONTSIZE_LABEL" description="TPL_QUASAR_CONTENTFONTSIZE_DESC" size="10" />
+			</fieldset>
+			<fieldset name="sitename" label="TPL_QUASAR_SITENAME_SETTINGS_TAB">
+				<field name="topheight" type="text" class="input-text" label="TPL_QUASAR_TOPHEIGHT_LABEL" default="120" description="TPL_QUASAR_TOPHEIGHT_DESC" size="10" />
+				<field name="keepfixed" class="switch" type="checkbox" label="Turn ON/OFF Left Bar Items Position Fixed" description="If turned on left hand side bar items will be kept fixed" value="true" />
+				
+				
+				<field type="spacer" class="inline-help" label="TPL_QUASAR_SITENAMEIMAGE_HELP" />
+				
+				<field name="logoimage" label="Logo Image" type="media" directory="images" description="Select Logo Image. Make sure your logo has the same size as provided in 'Tile Size' field, for example 'Tile Size: 120' then your logo should has 120px x 120px." />
+				
+				<field name="H1Title" type="textarea" filter="raw" class="input-text" label="TPL_QUASAR_H1TITLE_LABEL" description="TPL_QUASAR_H1TITLE_DESC" rows="2" cols="60" />
+				<field name="logoLinked" class="switch" type="checkbox" label="TPL_QUASAR_LOGOLINKED_LABEL" description="TPL_QUASAR_LOGOLINKED_DESC" value="true" />
+				<field name="H1TitleImgText" class="switch" type="checkbox" label="TPL_QUASAR_H1TITLEIMGTEXT_LABEL" description="TPL_QUASAR_H1TITLEIMGTEXT_DESC" value="true" />
+				<field name="sitenamecolor" type="color" default="#787878" label="TPL_QUASAR_SITENAMECOLOR_LABEL" description="TPL_QUASAR_SITENAMECOLOR_DESC" size="7" />
+				<field name="sitenamefontsize" class="input-text" type="text" default="40px" label="TPL_QUASAR_SITENAMEFONTSIZE_LABEL" description="TPL_QUASAR_SITENAMEFONTSIZE_DESC" size="10" />
+			
+				<field name="H1Titleimage" label="Built-in Site Name" type="media" directory="images" description="Select your site name image. Click Select button and upload your image to the server. Once your site name image is uploaded to the server you can select it on file list." />
+				
+				<field name="H1TitlePositionX" default="0" class="input-text" type="text" label="TPL_QUASAR_H1TITLEPOSITIONX_LABEL" description="TPL_QUASAR_H1TITLEPOSITIONX_DESC" size="10" />
+
+				
+				<field name="H1TitleMaxWidth1600" default="154px" class="input-text" type="text" label="Site Name Max Width (Desktop)" description="Type max width for site name image" size="10" />
+				<field name="H1TitlePositionY1600" default="32px" class="input-text" type="text" label="Site Name Position Y (Desktop)" description="" size="10" />
+				
+				<field name="H1TitleMaxWidth12001599" default="131px" class="input-text" type="text" label="Site Name Max Width (Small Desktop)" description="Type max width for site name image" size="10" />
+				<field name="H1TitlePositionY12001599" default="25px" class="input-text" type="text" label="Site Name Position Y (Small Desktop)" description="" size="10" />
+				
+				<field name="H1TitleMaxWidth9801199" default="123px" class="input-text" type="text" label="Site Name Max Width (Laptop)" description="Type max width for site name image" size="10" />
+				<field name="H1TitlePositionY9801199" default="20px" class="input-text" type="text" label="Site Name Position Y (Laptop)" description="" size="10" />
+				
+				<field name="H1Title768979" class="switch" type="checkbox" label="Turn ON/OFF on Tablet" description="" value="true" />
+				<field name="H1TitleMaxWidth768979" default="92px" class="input-text" type="text" label="Site Name Max Width (Tablet)" description="Type max width for site name image" size="10" />
+				<field name="H1TitlePositionY768979" default="9px" class="input-text" type="text" label="Site Name Position Y (Tablet)" description="" size="10" />
+				
+				<field name="H1Title767" class="switch" type="checkbox" label="Turn ON/OFF on Mobile Phone" description="" value="true" />
+				<field name="H1TitleMaxWidth767" default="69px" class="input-text" type="text" label="Site Name Max Width (Mobile Phone)" description="Type max width for site name image" size="10" />
+				<field name="H1TitlePositionY767" default="2px" class="input-text" type="text" label="Site Name Position Y (Mobile Phone)" description="" size="10" />
+				
+				<field type="spacer" class="inline-help" label="TPL_QUASAR_SLOGAN_HELP" />
+				<field name="H2Title" class="input-text" filter="raw" type="textarea" label="TPL_QUASAR_SLOGAN_LABEL" description="TPL_QUASAR_SLOGAN_DESC" rows="2" cols="60" />
+				<field name="slogancolor" type="color" default="#787878" label="TPL_QUASAR_SLOGAN_COLOR_LABEL" description="TPL_QUASAR_SLOGAN_COLOR_DESC" size="7" />
+				<field name="sloganfontsize" class="input-text" type="text" default="10px" label="TPL_QUASAR_SLOGANFONTSIZE_LABEL" description="TPL_QUASAR_SLOGANFONTSIZE_DESC" size="10" />
+
+				<field name="H2TitleImgText" class="switch" type="checkbox" label="TPL_QUASAR_H2TITLEIMGTEXT_LABEL" description="TPL_QUASAR_H2TITLEIMGTEXT_DESC" value="true" />			
+				<field name="H2Titleimage" label="TPL_QUASAR_H2TITLEIMAGE_LABEL" type="media" directory="images" description="Selecr your slogan image. Click Select button and upload your image to the server. Once your site slogan image is uploaded to the server you can select it on file list." />
+
+				<field name="H2TitlePositionX" default="154" class="input-text" type="text" label="TPL_QUASAR_H2TITLEPOSITIONX_LABEL" description="TPL_QUASAR_H2TITLEPOSITIONX_DESC" size="10" />
+				
+				<field name="H2TitleMaxWidth1600" default="154px" class="input-text" type="text" label="Site Name Max Width (Desktop)" description="Type max width for site name image" size="10" />
+				<field name="H2TitlePositionY1600" default="76px" class="input-text" type="text" label="Site Name Position Y (Desktop)" description="" size="10" />
+				
+				<field name="H2TitleMaxWidth12001599" default="154px" class="input-text" type="text" label="Site Name Max Width (Small Desktop)" description="Type max width for site name image" size="10" />
+				<field name="H2TitlePositionY12001599" default="25px" class="input-text" type="text" label="Site Name Position Y (Small Desktop)" description="" size="10" />
+				
+				<field name="H2TitleMaxWidth9801199" default="154px" class="input-text" type="text" label="Site Name Max Width (Laptop)" description="Type max width for site name image" size="10" />
+				<field name="H2TitlePositionY9801199" default="20px" class="input-text" type="text" label="Site Name Position Y (Laptop)" description="" size="10" />
+				
+				<field name="H2Title768979" class="switch" type="checkbox" label="Turn ON/OFF on Tablet" description="" value="true" />
+				<field name="H2TitleMaxWidth768979" default="154px" class="input-text" type="text" label="Site Name Max Width (Tablet)" description="Type max width for site name image" size="10" />
+				<field name="H2TitlePositionY768979" default="9px" class="input-text" type="text" label="Site Name Position Y (Tablet)" description="" size="10" />
+				
+				<field name="H2Title767" class="switch" type="checkbox" label="Turn ON/OFF on Mobile Phone" description="" value="true" />
+				<field name="H2TitleMaxWidth767" default="154px" class="input-text" type="text" label="Site Name Max Width (Mobile Phone)" description="Type max width for site name image" size="10" />
+				<field name="H2TitlePositionY767" default="2px" class="input-text" type="text" label="Site Name Position Y (Mobile Phone)" description="" size="10" />
+				
+			</fieldset>
+			<fieldset name="communitysettings" label="TPL_QUASAR_COMMUNITYSETTINGS">
+				<field type="spacer" class="inline-help" label="TPL_QUASAR_COMMUNITYSETTINGS_HELP" />
+				<field name="FollowUsLabel" class="input-text" type="text" label="Community Links Link Label" description="Set community links label (used also for pop up window title)" size="80" />
+				
+				
+				<field name="twitter" class="input-text" type="text" label="TPL_QUASAR_TWITTER_LABEL" description="TPL_QUASAR_TWITTER_DESC" size="80" />
+				<field name="twitterON" class="switch" type="checkbox" label="TPL_QUASAR_TWITTERON_LABEL" description="TPL_QUASAR_TWITTERON_DESC" value="true" />
+				<field name="gplus" class="input-text" type="text" label="Google Plus" description="Type your Google Plus URL" size="80" />
+				<field name="gplusON" class="switch" type="checkbox" label="Google Plus ON/OFF" description="Turn ON/OFF Google Plus" value="true" />
+				<field name="facebook" class="input-text" type="text" label="Facebook" description="Type your Facebook URL" size="80" />
+				<field name="facebookON" class="switch" type="checkbox" label="Facebook ON/OFF" description="Turn ON/OFF Facebook" value="true" />
+				<field name="RSS" class="input-text" type="text" label="RSS" description="Type your RSS URL" size="80" />
+				<field name="RSSON" class="switch" type="checkbox" label="RSS ON/OFF" description="Turn ON/OFF RSS" value="true" />
+				<field name="linkedin" class="input-text" type="text" label="Linkedin" description="Type your Linkedin URL" size="80" />
+				<field name="linkedinON" class="switch" type="checkbox" label="Linkedin ON/OFF" description="Turn ON/OFF Linkedin" value="true" />
+				<field name="youtube" class="input-text" type="text" label="YouTube" description="Type your YouTube URL" size="80" />
+				<field name="youtubeON" class="switch" type="checkbox" label="YouTube ON/OFF" description="Turn ON/OFF YouTube" value="true" />
+				<field name="vimeo" class="input-text" type="text" label="Vimeo" description="Type your Vimeo URL" size="80" />
+				<field name="vimeoON" class="switch" type="checkbox" label="Vimeo ON/OFF" description="Turn ON/OFF Vimeo" value="true" />
+				<field name="stumbleupon" class="input-text" type="text" label="Stumbleupon" description="Type your Stumbleupon URL" size="80" />
+				<field name="stumbleuponON" class="switch" type="checkbox" label="Stumbleupon ON/OFF" description="Turn ON/OFF Stumbleupon" value="true" />
+				<field name="digg" class="input-text" type="text" label="DIGG" description="Type your DIGG URL" size="80" />
+				<field name="diggON" class="switch" type="checkbox" label="DIGG ON/OFF" description="Turn ON/OFF DIGG" value="true" />
+				<field name="blogger" class="input-text" type="text" label="TPL_QUASAR_BLOGGER_LABEL" description="TPL_QUASAR_BLOGGER_DESC" size="80" />
+				<field name="bloggerON" class="switch" type="checkbox" label="Blogger ON/OFF" description="Turn ON/OFF Blogger" value="true" />
+				<field name="pinterest" class="input-text" type="text" label="Pinterest" description="Type your Pinterest URL" size="80" />
+				<field name="pinterestON" class="switch" type="checkbox" label="Pinterest ON/OFF" description="Turn ON/OFF Pinterest" value="true" />
+				<field name="instagram" class="input-text" type="text" label="Instagram" description="Type your Instagram URL" size="80" />
+				<field name="instagramON" class="switch" type="checkbox" label="Instagram ON/OFF" description="Turn ON/OFF Instagram" value="true" />				
+
+			</fieldset>
+
+		<fieldset name="DropDownMenuSettings" label="Drop Down Menu Settings">
+			<field name="usedropdown" class="switch" type="checkbox" label="ON/OFF drop down menu" description="" value="true" />
+			<field name="dropopacity" class="switch" type="checkbox" label="ON/OFF drop down opacity" description="" value="true" />
+			<field name="dropheight" class="switch" type="checkbox" label="ON/OFF drop down height" description="" value="true" />
+			<field name="dropwidth" class="switch" type="checkbox" label="ON/OFF drop down width" description="" value="true" />
+			<field name="dropspeed" class="input-text" type="list" default="normal" label="Drop Down Speed" description="">
+				<option value="slow">Slow</option>
+				<option value="normal">Normal</option>
+				<option value="fast">Fast</option>
+			</field>
+			<field name="dropdownhandler1" class="input-text" type="text" label="Min column width (em)" default="15" description="Set the default drop down handler width" size="10"></field>
+			<field name="dropdownhandler2" class="input-text" type="text" label="Drop Down 2 columns width (px)" default="360" description="Change the width for a drop down menu handler (Menu Items sorted in 2 columns)" size="10"></field>
+			<field name="dropdownhandler3" class="input-text" type="text" label="Drop Down 3 columns width (px)" default="500" description="Change the width for a drop down menu handler (Menu Items sorted in 3 columns)" size="10"></field>
+			<field name="dropdownhandler4" class="input-text" type="text" label="Drop Down 4 columns width (px)" default="660" description="Change the width for a drop down menu handler (Menu Items sorted in 4 columns)" size="10"></field>
+			<field name="dropdownhandler5" class="input-text" type="text" label="Drop Down 5 columns width (px)" default="860" description="Change the width for a drop down menu handler (Menu Items sorted in 5 columns)" size="10"></field>
+			
+		
+		</fieldset>
+			<fieldset name="customcode" label="Template Header And Footer Custom Code">
+			
+				<field type="spacer" class="inline-help" label="Using text fields below you can put your custom code in the document head and in the footer. This option is very usable if you would like to put Google Analytics or any other 3rd parties. " />
+
+				<field name="headcode" type="textarea" filter="raw" class="input-text" label="Insert code into template header" description="This field allows to put the code between [head] and [/head]" rows="10" cols="60" />
+				<field name="footercode" type="textarea" filter="raw" class="input-text" label="Insert code into template footer" description="This field allows to put the code before the closing [/body] tag" rows="10" cols="60" />
+			
+			</fieldset>
+		  <fieldset name="slideshowsettings" label="Built-in Slideshow Settings">
+			
+				<field name="cam_turnOn" class="switch" type="checkbox" label="Turn Slideshow ON/OFF" description="Set On if you would like to use built-in slideshow. Set OFF if you are planning to use any 3rd party extensions." value="true" />
+			
+				<field name="cam_autoAdvance" class="switch" type="checkbox" label="Turn ON/OFF autoplaying" description="Turn On if you would like to your slideshow to play automatically once your website load" value="true" />
+				
+				<field name="cam_mobileAutoAdvance" class="switch" type="checkbox" label="Turn ON/OFF autoplaying for mobiles" description="Turn On if you would like to your slideshow to play automatically once your website load on mobile devices" value="true" />
+
+				<field name="cam_slideOn" class="input-text" type="list" default="random" label="Slide Effect On" description="Decide if the transition effect will be applied to the current (prev) or the next slide">
+				  <option value="random">Random</option>
+				  <option value="next">Next</option>
+				  <option value="prev">Prev</option>
+				</field>
+
+				<field name="cam_thumbnails" class="switch" type="checkbox" label="Turn ON/OFF thumbnails" description="Turn On thumbnails for slideshow" value="true" />
+				
+				<field name="cam_time" class="input-text" type="text" default="7000" label="Slide Duration (ms)" description="Milliseconds between the end of the sliding effect and the start of the nex one" size="6" />
+				
+				<field name="cam_transPeriod" class="input-text" type="text" default="1500" label="Animation Duration (ms)" description="Lenght of the sliding effect in milliseconds" size="6" />
+				
+				<field name="cam_cols" class="input-text" type="text" default="10" label="Columns for images transitions" description="Type a number of columns you want to split images during transitions" size="6" />
+
+				<field name="cam_rows" class="input-text" type="text" default="10" label="Rows for images transitions" description="Type a number of rows you want to split images during transitions" size="6" />
+
+				<field name="cam_slicedCols" class="input-text" type="text" default="10" label="Columns for sliced images transitions" description="Type a number of columns you want to slice images during transitions" size="6" />
+
+				<field name="cam_slicedRows" class="input-text" type="text" default="10" label="Rows for sliced images transitions" description="Type a number of rows you want to slice images during transitions" size="6" />
+
+				<field name="cam_fx" class="input-text" type="list" default="random" label="Choose FX Effects" description="Select a fx effect for the slides transitions. ">
+					<option value="random">Random</option>
+					<option value="simpleFade">simpleFade</option>
+					<option value="curtainTopLeft">curtainTopLeft</option>
+					<option value="curtainTopRight">curtainTopRight</option>
+					<option value="curtainBottomLeft">curtainBottomLeft</option>
+					<option value="curtainBottomRight">curtainBottomRight</option>
+					<option value="curtainSliceLeft">curtainSliceLeft</option>
+					<option value="curtainSliceRight">curtainSliceRight</option>
+					<option value="blindCurtainTopLeft">blindCurtainTopLeft</option>
+					<option value="blindCurtainTopRight">blindCurtainTopRight</option>
+					<option value="blindCurtainBottomLeft">blindCurtainBottomLeft</option>
+					<option value="blindCurtainBottomRight">blindCurtainBottomRight</option>
+					<option value="blindCurtainSliceBottom">blindCurtainSliceBottom</option>
+					<option value="blindCurtainSliceTop">blindCurtainSliceTop</option>
+					<option value="stampede">stampede</option>
+					<option value="mosaic">mosaic</option>
+					<option value="mosaicReverse">mosaicReverse</option>
+					<option value="mosaicRandom">mosaicRandom</option>
+					<option value="mosaicSpiral">mosaicSpiral</option>
+					<option value="mosaicSpiralReverse">mosaicSpiralReverse</option>
+					<option value="topLeftBottomRight">topLeftBottomRight</option>
+					<option value="bottomRightTopLeft">bottomRightTopLeft</option>
+					<option value="bottomLeftTopRight">bottomLeftTopRight</option>
+					<option value="bottomLeftTopRight">bottomLeftTopRight</option>
+					<option value="scrollLeft">scrollLeft</option>
+					<option value="scrollRight">scrollRight</option>
+					<option value="scrollHorz">scrollHorz</option>
+					<option value="scrollBottom">scrollBottom</option>
+					<option value="scrollTop">scrollTop</option>
+				</field>
+
+				<field name="cam_fx_multiple_on" class="switch" type="checkbox" label="Use Multiple FX Effects" description="You can also use more than one effect, just type an effects names in field below. Separate values with commas:&lt;br /&gt;&lt;br /&gt;
+				&lt;code&gt;simpleFade, scrollRight, scrollBottom&lt;/code&gt;" value="true" />
+
+				<field type="spacer" class="inline-help" label="&lt;b&gt;FX Effects:&lt;/b&gt;
+				&lt;br /&gt;
+				simpleFade, curtainTopLeft, curtainTopRight, curtainBottomLeft, &lt;br /&gt;
+				curtainBottomRight, curtainSliceLeft, curtainSliceRight, blindCurtainTopLeft, &lt;br /&gt;
+				blindCurtainTopRight, blindCurtainBottomLeft, blindCurtainBottomRight,&lt;br /&gt;
+				blindCurtainSliceBottom, blindCurtainSliceTop, stampede,&lt;br /&gt;
+				mosaic, mosaicReverse, mosaicRandom, mosaicSpiral, mosaicSpiralReverse,&lt;br /&gt;
+				topLeftBottomRight, bottomRightTopLeft, bottomLeftTopRight,&lt;br /&gt;
+				bottomLeftTopRight, scrollLeft, scrollRight, scrollHorz, scrollBottom, scrollTop" />
+				
+				<field name="cam_fx_multi" type="textarea" filter="raw" class="input-text" label="Multiple FX Effects" description="Type and separate an effects names with commas, for example:&lt;br /&gt;&lt;br /&gt;
+				&lt;code&gt;simpleFade, scrollRight, scrollBottom&lt;/code&gt;" rows="3" cols="60" />
+				
+				<field name="cam_gridDifference" class="input-text" type="text" default="250" label="Grid Difference" description="To make the grid blocks slower than the slices, this value must be smaller than Animation Duration" size="6" />
+
+				<field name="cam_height" class="input-text" type="text" default="50%" label="Height" description="Here you can type pixels (for example 300px), a percentage (relative to the width of the slideshow, for instance 50%) or auto" size="6" />
+
+				<field name="cam_minHeight" class="input-text" type="text" default="400px" label="Min Height" description="Here you can type pixels (for example 300px), a percentage (relative to the width of the slideshow, for instance 50%) or you can also leave it empty" size="6" />
+
+				<field name="cam_hover" class="switch" type="checkbox" label="Pause on state hover" description="Pause on state hover. Not available for mobile devices" value="true" />
+				
+				<field name="cam_loader" class="input-text" type="list" default="pie" label="Loader" description="Choose loader style. Even if you choose pie, old browsers like IE8 can't display it. They will display always a loading bar instead.">
+					<option value="pie">Pie</option>
+					<option value="bar">Bar</option>
+					<option value="none">None</option>
+				</field>
+				
+				<field name="cam_barDirection" class="input-text" type="list" default="leftToRight" label="Bar Direction" description="Choose Bar Direction">
+					<option value="leftToRight">Left To Right</option>
+					<option value="rightToLeft">Right To Left</option>
+					<option value="topToBottom">Top To Bottom</option>
+					<option value="bottomToTop">Bottom To Top</option>
+				</field>
+				
+				<field name="cam_barPosition" class="input-text" type="list" default="bottom" label="Bar Position" description="Choose Bar Position">
+					<option value="bottom">Bottom</option>
+					<option value="left">Left</option>
+					<option value="top">Top</option>
+					<option value="right">Right</option>
+				</field>
+
+				<field name="cam_pieDiameter" class="input-text" type="text" default="38" label="Pie Diameter" description="Type Pie Diameter" size="6" />
+
+				<field name="cam_piePosition" class="input-text" type="list" default="rightTop" label="Pie Position" description="Choose Pie Position">
+					<option value="rightTop">Right Top</option>
+					<option value="leftTop">Left Top</option>
+					<option value="leftBottom">Left Bottom</option>
+					<option value="rightBottom">Right Bottom</option>
+				</field>
+				
+				<field name="cam_loaderColor" type="color" default="#eeeeee" label="Loader Color" description="Choose Loader Color" size="7" />
+				
+				<field name="cam_loaderBgColor" type="color" default="#222222" label="Loader Background Color" description="Choose Loader Background Color" size="7" />
+
+				<field name="cam_loaderOpacity" type="text" class="input-text" label="Loader Opacity" default="0.8" description="Choose loader opacity" />
+
+				<field name="cam_loaderPadding" type="text" class="input-text" label="Loader Padding" default="1" description="Choose how many empty pixels you want to display between the loader and its background" />
+				
+				<field name="cam_loaderStroke" type="text" class="input-text" label="Loader Stroke" default="5" description="The thickness both of the pie loader and of the bar loader. Remember: for the pie, the loader thickness must be less than a half of the Pie Diameter" />
+				
+				<field name="cam_navigation" class="switch" type="checkbox" label="Navigation" description="Display navigation buttons" value="true" />
+				
+				<field name="cam_playPause" class="switch" type="checkbox" label="Play/Pause" description="Display play/pause buttons" value="true" />
+				
+				<field name="cam_navigationHover" class="switch" type="checkbox" label="Navigation Hover" description="If true the navigation button (prev, next and play/stop buttons) will be visible on hover state only, if false they will be visible always" value="true" />
+				
+				<field name="cam_mobileNavHover" class="switch" type="checkbox" label="Mobile Navigation Hover" description="If true the navigation button on Mobile devices (prev, next and play/stop buttons) will be visible on hover state only, if false they will be visible always" value="true" />
+				
+				<field name="cam_opacityOnGrid" class="switch" type="checkbox" label="Opacity On Grid" description="Decide to apply a fade effect to blocks and slices. If your slideshow is fullscreen or just big, it is strongly recommended to set it to false to have a smoother effect " value="true" />
+
+				<field name="cam_pagination" class="switch" type="checkbox" label="Pagination" description="Display Pagination" value="true" />
+
+				<field name="cam_pauseOnClick" class="switch" type="checkbox" label="Pause On Click" description="This option stops the slideshow when you click the sliders." value="true" />
+
+				<field name="cam_portrait" class="switch" type="checkbox" label="Portrait" description="Select true if you don't want that your images are cropped" value="true" />
+				
+				<field name="cam_captionTop1" type="text" class="input-text" label="Caption 1 Position (space from top)" default="40%" description="Set Caption 1 spacing from top" />
+				<field name="cam_captionTop2" type="text" class="input-text" label="Caption 2 Position (space from top)" default="53%" description="Set Caption 2 spacing from top" />
+			
+		  </fieldset>
+		  
+		  <fieldset name="vmtproductslider" label="Product Slider Settings">
+		  
+		  <!--
+				<field name="sl_items" class="input-text" type="text" default="4" label="Default Number of items" description="This variable allows you to set the maximum amount of items displayed at a time with the widest browser width" size="6" />
+				
+				<field name="sl_itemsDesktop" class="input-text" type="text" default="4" label="Default Number of items" description="Set for devices smaller than 1600px of width" size="6" />
+				<field name="sl_itemsDesktopSmall" class="input-text" type="text" default="4" label="Default Number of items" description="Set for devices smaller than 1260px of width" size="6" />
+				<field name="sl_itemsTablet" class="input-text" type="text" default="3" label="Default Number of items" description="Set for devices smaller than 1000px of width" size="6" />
+				<field name="sl_itemsTabletSmall" class="input-text" type="text" default="2" label="Default Number of items" description="Set for devices smaller than 768px of width" size="6" />
+				<field name="sl_itemsMobile" class="input-text" type="text" default="1" label="Default Number of items" description="Set for devices smaller than 480px of width" size="6" />
+		  -->
+				<field name="sl_pagination" class="switch" type="checkbox" label="Turn ON/OFF Pagination" description="Turn ON/OFF Pagination" value="true" />
+				<field name="sl_paginationSpeed" class="input-text" type="text" default="800" label="Pagination speed in milliseconds" description="Pagination speed in milliseconds" size="6" />
+				
+				<field name="sl_autoPlay" class="input-text" type="text" default="false" label="Auto Play" description="Auto Play speed in milliseconds. Keep 'false' to turn off auto play" size="6" />
+				
+				<field name="sl_slideSpeed" class="input-text" type="text" default="200" label="Slide speed in milliseconds" description="Slide speed in milliseconds" size="6" />
+				<field name="sl_rewindSpeed" class="input-text" type="text" default="1000" label="Rewind speed in milliseconds" description="Rewind speed in milliseconds" size="6" />
+
+				<field name="sl_stopOnHover" class="switch" type="checkbox" label="Turn ON/OFF autoplay on mouse hover" description="" value="true" />
+				<field name="sl_navigation" class="switch" type="checkbox" label="Turn ON/OFF navigation (on mobile)" description="Visible only on mobile devices - other devices only pagination visible" value="true" />
+				<field name="sl_scrollPerPage" class="switch" type="checkbox" label="Turn ON/OFF scroll per page not per item" description="" value="true" />
+				<field name="sl_paginationNumbers" class="switch" type="checkbox" label="Turn ON/OFF numbers inside pagination buttons" description="" value="true" />
+				<field name="sl_responsive" class="switch" type="checkbox" label="Turn ON/OFF responsive mode" description="" value="true" />
+				<field name="sl_responsiveRefreshRate" class="input-text" type="text" default="150" label="Window Refresh Rate" description="Check window width changes every 200ms for responsive actions" size="6" />
+					
+				<field name="sl_dragBeforeAnimFinish" class="switch" type="checkbox" label="Turn ON/OFF Drag during animations" description="Ignore whether a transition is done or not (only dragging)" value="true" />
+				<field name="sl_mouseDrag" class="switch" type="checkbox" label="Turn ON/OFF mouse drag" description="" value="true" />
+				<field name="sl_touchDrag" class="switch" type="checkbox" label="Turn ON/OFF touch drag " description="" value="true" />
+		  
+
+		  
+		  </fieldset>
+		  
+		  <fieldset name="vmttestimonialsslider" label="Testimonials Slider Settings">
+			
+				<field name="testi_title" class="input-text" type="text" default="Our happy customers said..." label="Testimonials Box Label" description="Type label visible under testimonials" size="6" />
+				<field name="testisl_items" class="input-text" type="text" default="1" label="Default Number of items" description="This variable allows you to set the maximum amount of items displayed at a time with the widest browser width" size="6" />
+				
+				<field name="testisl_itemsDesktop" class="input-text" type="text" default="1" label="Default Number of items" description="Set for devices smaller than 1600px of width" size="6" />
+				<field name="testisl_itemsDesktopSmall" class="input-text" type="text" default="1" label="Default Number of items" description="Set for devices smaller than 1260px of width" size="6" />
+				<field name="testisl_itemsTablet" class="input-text" type="text" default="1" label="Default Number of items" description="Set for devices smaller than 1000px of width" size="6" />
+				<field name="testisl_itemsTabletSmall" class="input-text" type="text" default="1" label="Default Number of items" description="Set for devices smaller than 768px of width" size="6" />
+				<field name="testisl_itemsMobile" class="input-text" type="text" default="1" label="Default Number of items" description="Set for devices smaller than 480px of width" size="6" />
+		  
+				<field name="testisl_pagination" class="switch" type="checkbox" label="Turn ON/OFF Pagination" description="Turn ON/OFF Pagination" value="true" />
+				<field name="testisl_paginationSpeed" class="input-text" type="text" default="800" label="Pagination speed in milliseconds" description="Pagination speed in milliseconds" size="6" />
+				
+				<field name="testisl_autoPlay" class="input-text" type="text" default="false" label="Auto Play" description="Auto Play speed in milliseconds. Keep 'false' to turn off auto play" size="6" />
+				
+				<field name="testisl_slideSpeed" class="input-text" type="text" default="200" label="Slide speed in milliseconds" description="Slide speed in milliseconds" size="6" />
+				<field name="testisl_rewindSpeed" class="input-text" type="text" default="1000" label="Rewind speed in milliseconds" description="Rewind speed in milliseconds" size="6" />
+
+				<field name="testisl_stopOnHover" class="switch" type="checkbox" label="Turn ON/OFF autoplay on mouse hover" description="" value="true" />
+				<field name="testisl_navigation" class="switch" type="checkbox" label="Turn ON/OFF navigation" description="" value="true" />
+				<field name="testisl_scrollPerPage" class="switch" type="checkbox" label="Turn ON/OFF scroll per page not per item" description="" value="true" />
+				<field name="testisl_paginationNumbers" class="switch" type="checkbox" label="Turn ON/OFF numbers inside pagination buttons" description="" value="true" />
+				<field name="testisl_responsive" class="switch" type="checkbox" label="Turn ON/OFF responsive mode" description="" value="true" />
+				<field name="testisl_responsiveRefreshRate" class="input-text" type="text" default="150" label="Window Refresh Rate" description="Check window width changes every 200ms for responsive actions" size="6" />
+					
+				<field name="testisl_dragBeforeAnimFinish" class="switch" type="checkbox" label="Turn ON/OFF Drag during animations" description="Ignore whether a transition is done or not (only dragging)" value="true" />
+				<field name="testisl_mouseDrag" class="switch" type="checkbox" label="Turn ON/OFF mouse drag" description="" value="true" />
+				<field name="testisl_touchDrag" class="switch" type="checkbox" label="Turn ON/OFF touch drag " description="" value="true" />
+		  
+
+		  
+		  </fieldset>
+		  
+		  <fieldset name="manproductslider" label="Manufacturers Slider Settings">
+		  
+		  
+				<field name="man_items" class="input-text" type="text" default="8" label="Default Number of items" description="This variable allows you to set the maximum amount of items displayed at a time with the widest browser width" size="6" />
+				
+				<field name="man_itemsDesktop" class="input-text" type="text" default="8" label="Default Number of items" description="Set for devices smaller than 1600px of width" size="6" />
+				<field name="man_itemsDesktopSmall" class="input-text" type="text" default="8" label="Default Number of items" description="Set for devices smaller than 1260px of width" size="6" />
+				<field name="man_itemsTablet" class="input-text" type="text" default="6" label="Default Number of items" description="Set for devices smaller than 1000px of width" size="6" />
+				<field name="man_itemsTabletSmall" class="input-text" type="text" default="4" label="Default Number of items" description="Set for devices smaller than 768px of width" size="6" />
+				<field name="man_itemsMobile" class="input-text" type="text" default="3" label="Default Number of items" description="Set for devices smaller than 480px of width" size="6" />
+		  
+				<field name="man_pagination" class="switch" type="checkbox" label="Turn ON/OFF Pagination" description="Turn ON/OFF Pagination" value="true" />
+				<field name="man_paginationSpeed" class="input-text" type="text" default="800" label="Pagination speed in milliseconds" description="Pagination speed in milliseconds" size="6" />
+				
+				<field name="man_autoPlay" class="input-text" type="text" default="false" label="Auto Play" description="Auto Play speed in milliseconds. Keep 'false' to turn off auto play" size="6" />
+				
+				<field name="man_slideSpeed" class="input-text" type="text" default="200" label="Slide speed in milliseconds" description="Slide speed in milliseconds" size="6" />
+				<field name="man_rewindSpeed" class="input-text" type="text" default="1000" label="Rewind speed in milliseconds" description="Rewind speed in milliseconds" size="6" />
+
+				<field name="man_stopOnHover" class="switch" type="checkbox" label="Turn ON/OFF autoplay on mouse hover" description="" value="true" />
+				<field name="man_navigation" class="switch" type="checkbox" label="Turn ON/OFF navigation" description="" value="true" />
+				<field name="man_scrollPerPage" class="switch" type="checkbox" label="Turn ON/OFF scroll per page not per item" description="" value="true" />
+				<field name="man_paginationNumbers" class="switch" type="checkbox" label="Turn ON/OFF numbers inside pagination buttons" description="" value="true" />
+				<field name="man_responsive" class="switch" type="checkbox" label="Turn ON/OFF responsive mode" description="" value="true" />
+				<field name="man_responsiveRefreshRate" class="input-text" type="text" default="150" label="Window Refresh Rate" description="Check window width changes every 200ms for responsive actions" size="6" />
+					
+				<field name="man_dragBeforeAnimFinish" class="switch" type="checkbox" label="Turn ON/OFF Drag during animations" description="Ignore whether a transition is done or not (only dragging)" value="true" />
+				<field name="man_mouseDrag" class="switch" type="checkbox" label="Turn ON/OFF mouse drag" description="" value="true" />
+				<field name="man_touchDrag" class="switch" type="checkbox" label="Turn ON/OFF touch drag " description="" value="true" />
+		  
+
+		  
+		  </fieldset>
+		  
+		  <fieldset name="vmtproductimages" label="Product Images Settings">
+				<field name="useZoom" class="switch" type="checkbox" label="ON/OFF Zoom Images Script" description="Select ON to use Zoom script for your product image in Product Details. If OFF then the default VirtueMart solution will be used" value="true" />
+				<field name="zoomType" class="input-text" type="list" default="lens" label="Select Zoom Type" description="Select a type of Zoom used for a product images.">
+					<option value="lens">Lens Zoom</option>
+					<option value="inner">Inner Zoom</option>
+				</field>
+				<field name="lensShape" class="input-text" type="list" default="round" label="Select Lens Type" description="Select a type of Zoom lens">
+					<option value="round">Round</option>
+					<option value="square">Square</option>
+				</field>
+				<field name="lensSize" class="input-text" type="text" default="200" label="Lens Size" description="Set a lens size" size="6" />
+				<field name="cursor" class="input-text" type="list" default="default" label="Select Zoom Cursoe" description="Select a type of Zoom cursor">
+					<option value="default">Default</option>
+					<option value="crosshair">Crosshair</option>
+					<option value="pointer">Pointer</option>
+					<option value="none">None</option>
+				</field>
+				<field name="responsive" class="switch" type="checkbox" label="Responsive Mode" description="ON/OFF Responsive Mode - high recommended if you are using responsive template" value="true" />
+		  </fieldset>
+		  
+		  <fieldset name="popupbars" label="Side Pop Up Box Settings">
+		  
+				<field type="spacer" class="inline-help" label="Left Hand Side Pop Up Box" />
+				
+				<field name="HLposition" class="input-text" type="list" default="top" label="Box Position" description="Set Box Position Top or Bottom">
+					<option value="top">Top</option>
+					<option value="bottom">Bottom</option>
+				</field>
+				
+				<field name="HLspaceFrom" class="input-text" type="text" default="308" label="Box Space from Top/Bottom (px)" description="Set Box Space from top or bottom." size="6" />
+				
+				<field name="HLmaxWidth" class="input-text" type="text" default="240" label="Box Width (px)" description="Set Box Width" size="6" />
+				
+				<field name="HLheight" class="input-text" type="text" default="400" label="Box Height (px)" description="Set Box Height" size="6" />
+				
+				<field name="HLlabelSize" class="input-text" type="text" default="100" label="Box Label Width (px)" description="Set Label Width. Please note the label title must be set in module title field in module settings you published into header-left module position." size="6" />
+				
+				<field name="HLboxspeed" class="input-text" type="list" default="normal" label="Box Animation Speed" description="Choose speed level for box animation">
+					<option value="slow">Slow</option>
+					<option value="normal">Normal</option>
+					<option value="fast">Fast</option>
+				</field>
+				
+				<field name="HLmobileVisible" class="input-text" type="list" default="yes" label="Visible on mobile phones?" description="Set Yes to display pop up box on mobile phones.">
+					<option value="yes">Yes!</option>
+					<option value="no">No</option>
+				</field>
+
+				<field type="spacer" class="inline-help" label="Right Hand Side Pop Up Box" />
+				
+				<field name="HRposition" class="input-text" type="list" default="bottom" label="Box Position" description="Set Box Position Top or Bottom">
+					<option value="top">Top</option>
+					<option value="bottom">Bottom</option>
+				</field>
+				
+				<field name="HRspaceFrom" class="input-text" type="text" default="20" label="Box Space from Top/Bottom (px)" description="Set Box Space from top or bottom." size="6" />
+				
+				<field name="HRmaxWidth" class="input-text" type="text" default="240" label="Box Width (px)" description="Set Box Width" size="6" />
+				
+				<field name="HRheight" class="input-text" type="text" default="400" label="Box Height (px)" description="Set Box Height" size="6" />
+				
+				<field name="HRlabelSize" class="input-text" type="text" default="100" label="Box Label Width (px)" description="Set Label Width. Please note the label title must be set in module title field in module settings you published into header-left module position." size="6" />
+				
+				<field name="HRboxspeed" class="input-text" type="list" default="normal" label="Box Animation Speed" description="Choose speed level for box animation">
+					<option value="slow">Slow</option>
+					<option value="normal">Normal</option>
+					<option value="fast">Fast</option>
+				</field>
+				
+				<field name="HRmobileVisible" class="input-text" type="list" default="yes" label="Visible on mobile phones?" description="Set Yes to display pop up box on mobile phones.">
+					<option value="yes">Yes!</option>
+					<option value="no">No</option>
+				</field>
+		  
+		  </fieldset>
+		  
+
+		  <fieldset name="themesettings" label="Theme Settings">
+		  
+		  
+		  
+		  <field name="nonresponsivesitewidth" class="input-text" type="text" default="1170px" label="Site Container Width (Responsive Mode OFF)" description="Set container width if the responsive mode is off. You can use pixels or percents" size="6" />
+		  
+		  <field name="bodybackgroundimage" label="Background Image" type="media" directory="images" description="Select your background image. If empty simple background color chosen below will be used." />
+		  
+
+		  
+			<field name="usetheme" class="switch" type="checkbox" label="Built-in Theme" description="Select ON to use one of the built-in themes. Select OFF to customize the template colour scheme." value="true" />
+			
+			<field name="choosetheme" type="list" default="style1" label="Choose Theme" description="">
+			  <option value="style1">Theme 1</option>
+			  <option value="style2">Theme 2</option>
+			  <option value="style3">Theme 3</option>
+			  <option value="style4">Theme 4</option>
+			  <option value="style5">Theme 5</option>
+			  <option value="style6">Theme 6</option>
+			</field>
+			
+			<field type="spacer" class="inline-help" label="To choose your own colors below simply click the text field to open the color selector tool." />
+			
+				<field name="color1" type="color" default="#ffffff" label="Body Background" description="" size="7"></field>
+				<field name="color2" type="color" default="#787878" label="Text Color" description="" size="7"></field>
+				
+				<field name="color3" type="color" default="#e37917" label="Custom Color 1" description="" size="7"></field>
+				<field name="color4" type="color" default="#cc5285" label="Custom Color 2" description="" size="7"></field>
+				<field name="color5" type="color" default="#ffae21" label="Custom Color 3" description="" size="7"></field>
+				<field name="color6" type="color" default="#ffffff" label="Custom Color 4" description="" size="7"></field>
+				<field name="color7" type="color" default="#e37917" label="Custom Background Color 1" description="" size="7"></field>
+				
+				<field name="color8" type="color" default="#cc5285" label="Custom Background Color 2" description="" size="7"></field>
+				<field name="color9" type="color" default="#ffae21" label="Custom Background Color 3" description="" size="7"></field>
+				<field name="color10" type="color" default="#ffffff" label="Custom Background Color 4" description="" size="7"></field>
+				<field name="color11" type="color" default="#f7b707" label="Logo Handler Gradient Color 1" description="" size="7"></field>
+				<field name="color12" type="color" default="#e37917" label="Logo Handler Gradient Color 2" description="" size="7"></field>
+				
+				<field name="color13" type="color" default="#f1f1f1" label="Top Bar Background" description="" size="7"></field>
+				<field name="color14" type="color" default="#e0e0e0" label="Top Bar Border Color" description="" size="7"></field>
+
+				<field name="color16" type="color" default="#ffffff" label="Pop Up Contact (quick-contact) Background" description="" size="7"></field>
+				<field name="color17" type="color" default="#787878" label="Pop Up Contact (quick-contact) Text Color" description="" size="7"></field>
+				
+				<field name="color18" type="color" default="#e37917" label="Pop Up Contact (quick-contact) Link Color" description="" size="7"></field>
+				<field name="color19" type="color" default="#686a6e" label="Left Bar Background" description="" size="7"></field>
+				<field name="color20" type="color" default="#535558" label="Left Bar Menu Active/Highlight Background" description="" size="7"></field>
+				<field name="color21" type="color" default="#e37917" label="Left Bar Menu Active/Highlight Border Color" description="" size="7"></field>
+				<field name="color22" type="color" default="#ffffff" label="Left Column Background" description="" size="7"></field>
+				
+				<field name="color23" type="color" default="#e0e0e0" label="Left Column Border" description="" size="7"></field>
+				<field name="color24" type="color" default="#e0e0e0" label="Right Handler Module Heading Border" description="" size="7"></field>
+				<field name="color25" type="color" default="#787878" label="Top Bar Quick Menu Link" description="" size="7"></field>
+				<field name="color26" type="color" default="#454545" label="Top Bar Quick Menu Highlight Link" description="" size="7"></field>
+				<field name="color27" type="color" default="#ffffff" label="Top Bar Highlight Buttons Background" description="" size="7"></field>
+				
+				<field name="color28" type="color" default="#e37917" label="Top Bar Highlight Buttons Border" description="" size="7"></field>
+				<field name="color29" type="color" default="#e5e5e5" label="Top Bar Search Pop Up Panel Background" description="" size="7"></field>
+				<field name="color30" type="color" default="#ffffff" label="Top Bar Search Pop Up Panel Input Background" description="" size="7"></field>
+				<field name="color31" type="color" default="#464646" label="Top Bar Search Pop Up Panel Input Text Color" description="" size="7"></field>
+				<field name="color32" type="color" default="#e37917" label="Default Link Color" description="" size="7"></field>
+				
+				<field name="color33" type="color" default="#787878" label="Button Text Color" description="" size="7"></field>
+				<field name="color34" type="color" default="#ffffff" label="Button Background" description="" size="7"></field>
+				<field name="color35" type="color" default="#ffffff" label="Button Highlight Text Color" description="" size="7"></field>
+				<field name="color36" type="color" default="#e37917" label="Button Highlight Background" description="" size="7"></field>
+				<field name="color37" type="color" default="#e36e00" label="Responsive Menu Highlight" description="" size="7"></field>
+				
+				<field name="color38" type="color" default="#cccccc" label="Built-in Slideshow Pagination Dot Color" description="" size="7"></field>
+				<field name="color39" type="color" default="#ffffff" label="Built-in Slideshow Navigation Background Color" description="" size="7"></field>
+				<field name="color40" type="color" default="#e37917" label="Built-in Slideshow Pagination Active Dot" description="" size="7"></field>
+				<field name="color41" type="color" default="#2f2f2f" label="Buitl-in Slideshow Thumbnails Border" description="" size="7"></field>
+				<field name="color42" type="color" default="#787878" label="Built-in Slideshow Caption Color 1" description="" size="7"></field>
+				
+				<field name="color43" type="color" default="#ffffff" label="Built-in Slideshow Caption Color 2" description="" size="7"></field>
+				<field name="color44" type="color" default="#ffffff" label="Built-in Slideshow Responsive Captions Background (Visible on mobile)" description="" size="7"></field>
+				<field name="color45" type="color" default="#787878" label="Top Menu Link Color" description="" size="7"></field>
+				<field name="color46" type="color" default="#e37917" label="Top Menu Active Link Color" description="" size="7"></field>
+				<field name="color47" type="color" default="#686a6e" label="Top Menu Highlight Link Background Color" description="" size="7"></field>
+				
+				<field name="color48" type="color" default="#ffffff" label="Top Menu Highlight Link Color" description="" size="7"></field>
+				<field name="color49" type="color" default="#ffae21" label="Top Menu Pop Up Label Background" description="" size="7"></field>
+				<field name="color50" type="color" default="#ffffff" label="Top Menu Pop Up Label Color" description="" size="7"></field>
+				<field name="color51" type="color" default="#e53535" label="Top Menu Hot Pop Up Label Background" description="" size="7"></field>
+				<field name="color52" type="color" default="#ffffff" label="Top Menu Hot Pop Up Label Color" description="" size="7"></field>
+				
+				<field name="color53" type="color" default="#9ccc6c" label="Top Menu Featured Pop Up Label Background" description="" size="7"></field>
+				<field name="color54" type="color" default="#ffffff" label="Top Menu Featured Pop Up Label Color" description="" size="7"></field>
+				<field name="color55" type="color" default="#dedede" label="Top Menu Sub-Items Seperators Border" description="" size="7"></field>
+				<field name="color56" type="color" default="#595959" label="Top Menu Sub-Items Link Color" description="" size="7"></field>
+				<field name="color57" type="color" default="#ffffff" label="Top Menu Sub-Items Highlight Link Color" description="" size="7"></field>
+				
+				<field name="color58" type="color" default="#e37917" label="Top Menu Sub-Items Highlight Link Background" description="" size="7"></field>
+				<field name="color59" type="color" default="#ffffff" label="Responsive Top Menu Handler Background" description="" size="7"></field>
+				<field name="color60" type="color" default="#787878" label="Responsive Top Menu Sub-Item Link Color" description="" size="7"></field>
+				<field name="color61" type="color" default="#e37917" label="Responsive Top Menu Sub-Item Highlight Link Color" description="" size="7"></field>
+				<field name="color62" type="color" default="#e37917" label="Top Menu Arrow" description="" size="7"></field>
+				
+				<field name="color63" type="color" default="#ffffff" label="Top Menu Highlight Arrow" description="" size="7"></field>
+				<field name="color64" type="color" default="#ffffff" label="Top Menu Sub-Items Handler Background" description="" size="7"></field>
+				<field name="color65" type="color" default="#e37917" label="Cart Panel Link Color" description="" size="7"></field>
+				<field name="color66" type="color" default="#e0e0e0" label="Default Border" description="" size="7"></field>
+				<field name="color67" type="color" default="#787878" label="Product Price Color" description="" size="7"></field>
+				
+				<field name="color68" type="color" default="#e37917" label="Product Title Color" description="" size="7"></field>
+				<field name="color69" type="color" default="#e5e5e5" label="Products Slider Pagination Dot Background" description="" size="7"></field>
+				<field name="color70" type="color" default="#ffffff" label="Products Slider Pagination Dot Color" description="" size="7"></field>
+				<field name="color71" type="color" default="#e5e5e5" label="Products Slider Navigation Buttons Background" description="" size="7"></field>
+				<field name="color72" type="color" default="#333333" label="Products Slider Navigation Buttons Arrow Color" description="" size="7"></field>
+				
+				<field name="color73" type="color" default="#e37917" label="Product Slider Pagination Active Dot Background" description="" size="7"></field>
+				<field name="color74" type="color" default="#ffffff" label="Product Slider Pagination Active Dot Color" description="" size="7"></field>
+				<field name="color75" type="color" default="#f0f0f0" label="Module Banner Background Color" description="" size="7"></field>
+				<field name="color76" type="color" default="#787878" label="Module Banner Text/Link Color" description="" size="7"></field>
+				<field name="color77" type="color" default="#e37917" label="Module Banner Highlight Background Color" description="" size="7"></field>
+				
+				<field name="color78" type="color" default="#ffffff" label="Module Banner Highlight Text/Link Color" description="" size="7"></field>
+				<field name="color79" type="color" default="#e37917" label="Module Heading Color 1" description="" size="7"></field>
+				<field name="color80" type="color" default="#787878" label="Module Menu Heading Color" description="" size="7"></field>
+				<field name="color81" type="color" default="#ffffff" label="Module Menu Background" description="" size="7"></field>
+				<field name="color82" type="color" default="#e37917" label="Module Menu Link" description="" size="7"></field>
+				
+				<field name="color83" type="color" default="#ffffff" label="Module Menu Highlight Color" description="" size="7"></field>
+				<field name="color84" type="color" default="#e37917" label="Module Menu Highlight Background Color" description="" size="7"></field>
+				<field name="color85" type="color" default="#4d4d4d" label="Module Menu Sub-Items Link" description="" size="7"></field>
+				<field name="color86" type="color" default="#e37917" label="Module Menu Sub-Items Highlight Link" description="" size="7"></field>
+				<field name="color87" type="color" default="#ffffff" label="Testimonials Background Color" description="" size="7"></field>
+				
+				<field name="color88" type="color" default="#787878" label="Testimonials Text Color" description="" size="7"></field>
+				<field name="color89" type="color" default="#e37917" label="Left Pop Up Panel Background Color" description="" size="7"></field>
+				<field name="color90" type="color" default="#ffffff" label="Left Pop Up Panel Text Color" description="" size="7"></field>
+				<field name="color91" type="color" default="#f8f8f8" label="Right Pop Up Panel Background Color" description="" size="7"></field>
+				<field name="color92" type="color" default="#787878" label="Right Pop Up Panel Text Color" description="" size="7"></field>
+				
+				<field name="color93" type="color" default="#e37917" label="Right Pop Up Panel Link Color" description="" size="7"></field>
+				<field name="color94" type="color" default="#ffffff" label="Right Pop Up Panel Active Button Color" description="" size="7"></field>
+				<field name="color95" type="color" default="#f1f1f1" label="Footer Background" description="" size="7"></field>
+				<field name="color96" type="color" default="#e0e0e0" label="Footer Border" description="" size="7"></field>
+				<field name="color97" type="color" default="#787878" label="Footer Text Color" description="" size="7"></field>
+				
+				<field name="color98" type="color" default="#787878" label="Footer Link" description="" size="7"></field>
+				<field name="color99" type="color" default="#454545" label="Footer Highlight Link" description="" size="7"></field>
+	
+			<field type="spacer" class="inline-help" name="colours_handlers" label="If you are getting any troubles with the custom colors please at first make sure you set OFF for Built-in Theme option." />
+		  </fieldset>
+ 
+		</fields>
+	</config>
+</extension>
+
+
+
+
+

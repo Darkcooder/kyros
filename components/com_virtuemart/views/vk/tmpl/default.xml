@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="VK Application">
+        <message>IFrame VK Application</message>
+    </layout>
+    <state>
+        <fields name="request">
+        </fields>
+    </state>
+</metadata>

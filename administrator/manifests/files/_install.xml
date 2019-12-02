@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="file" method="upgrade">
+  <name>Russian (Russia) language pack for JA Facebook Activity Module (J2.5)</name>
+  <author>ASWD Studio</author>
+  <authorEmail>admin@aswd-studio.com</authorEmail>
+  <authorUrl>aswd-studio.com</authorUrl>
+  <creationDate>March, 2014</creationDate>
+  <copyright>Copyright (c) 2013-2014 ASWD Studio. All rights reserved.</copyright>
+  <license>Copyrighted Commercial Software</license>
+  <version>1.2</version>
+  <description>Russian (Russia) language pack for JA Facebook Activity Module (J2.5)</description>
+  <fileset>
+    	
+    <files folder="modules" target="modules/mod_jafacebookactivity">
+      <filename>mod_jafacebookactivity.xml</filename>
+    </files>
+	
+	<files folder="modules" target="language/ru-RU">
+      <filename>ru-RU.mod_jafacebookactivity.ini</filename>
+    </files>
+	
+  </fileset>
+</extension>

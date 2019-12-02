@@ -1,0 +1,90 @@
+
+.left-handler{
+    display: none !important;
+}
+.log-panel{
+    display: none !important;
+}
+#logo-handler{
+    width: 64px !important;
+    height: 64px !important;
+}
+.h1{
+    display: none !important;
+}
+.h2{
+    top: 16px !important;
+    font-size: 24px !important;
+    color: #fff  !important;
+    font-weight: normal !important;
+}
+
+.qm-open{
+    width: 64px !important;
+    height: 64px !important;
+}
+#top-navigation-bar{
+    height: 64px !important;
+}
+#sn-position{
+    width: 180px !important;
+    height: 64px !important;
+    background-color: #686a6e !important;
+}
+
+.quick-menu-handler{
+    top: 64px !important;
+}
+.global-container{
+    margin-top:-32px !important;
+}
+
+
+
+
+h2{
+    text-align: center;
+}
+
+.vk_rootListFrmae{
+    display: inline-block;
+    width: 259px;
+    height: 700px;
+    margin:0;
+    margin-left: -40px;
+    margin-top: -10px;
+    padding-top: 10px;
+    float: left;
+    background-color: #686a6e;
+}
+
+.vk_rootListFrmae .List div.selected{
+    border-right: none;
+    border-left: #e37917 solid 3px;
+    margin-right: -15px;
+    width: 215px;
+}
+
+.vk_infoFrame{
+    display: inline-block;
+    width: 730px;
+    margin:0;
+}
+.vk_infoList{
+    display: inline-block;
+    width: 240px;
+    margin:0;
+    vertical-align: top;
+}
+
+.vk_infoList h3{
+    text-align: center;
+}
+
+.vk_mosaicList .List{
+    width: 100% !important;
+}
+
+.vk_mosaicList .List div{
+    display: inline-block !important;
+}

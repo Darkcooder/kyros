@@ -1,0 +1,12 @@
+@import url("bootstrap.css");
+@import url("responsive.css");
+@import url("camera.css");
+@import url("layout.css");
+@import url("nav.css");
+@import url("responsive-template.css");
+@import url("template.css");
+@import url("text.css");
+@import url("typography.css");
+@import url("vm-quasar.css");
+
+.addtocart-area { display: none; }

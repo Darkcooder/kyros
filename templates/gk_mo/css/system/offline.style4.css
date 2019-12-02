@@ -1,0 +1,317 @@
+/*
+#------------------------------------------------------------------------
+# Mo - January Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* Basic elements */
+html {
+	height: 100%;
+}
+body, html {
+	margin: 0;
+	min-height: 100%;
+	padding: 0;
+}
+body {
+	background: #76acfc;
+	color: #fff;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 2;
+	min-height: 100%;
+	padding: 0;
+	text-align: center;
+	word-wrap: break-word;
+  
+}
+a {
+	-webkit-transition: background .3s cubic-bezier(.17, .67, .88, 1.25), color .2s linear;
+	-moz-transition: background .3s cubic-bezier(.17, .67, .88, 1.25), color .2s linear;
+	-o-transition: background .3s cubic-bezier(.17, .67, .88, 1.25), color .2s linear;
+	transition: background .3s cubic-bezier(.17, .67, .88, 1.25), color .2s linear;
+	color: #fff;
+	text-decoration: none;
+}
+a:hover, 
+a:active, 
+a:focus {
+	color: #222;
+}
+
+/* Logo  */
+.gkLogo {
+	float: left;
+	margin: 0;
+}
+#gkLogo {
+	margin: 0 auto!important;
+	padding: 0;
+	text-indent: -999em;
+	text-shadow: none;
+	width: 130px;
+	display: block;
+	float: none;
+	margin: 50px 0;
+	-webkit-transition: background-color .3s linear;
+	-moz-transition: background-color .3s linear;
+	-ms-transition: background-color .3s linear;
+	-o-transition: background-color .3s linear;
+	transition: background-color .3s linear;
+}
+#gkLogo img {
+	display: block;
+	margin: 0;
+}
+#gkLogo.cssLogo {
+	/* You can specify there logo size and background */
+	height: 122px;
+	width: 139px;
+}
+#gkLogo.cssLogo{
+	background: transparent url('../../images/logo.png') no-repeat 0 0;
+}
+.svg #gkLogo.cssLogo{
+	background: transparent url('../../images/logo.svg') no-repeat 0 0;
+}
+#gkLogo.text {
+	color: #fff;
+	display: block;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+	text-indent: 0;
+	width: auto;
+}
+#gkLogo.text > span {
+	display: block;
+	font-size: 56px;
+	font-weight: bold;
+	line-height: 45px;
+	padding: 0;
+}
+#gkLogo.text .gkLogoSlogan {
+	color: #eee;
+	display: block;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: center;
+}
+
+/* Blocks */
+
+#wrapper {
+	padding: 80px 100px;
+}
+/* Other elements */
+h1 {
+	font-size: 200px;
+	font-weight: 700;
+	letter-spacing: -8px;
+	line-height: 1.2;
+	margin: 0;
+}
+h2, 
+h3 {
+	font-size: 45px;
+	font-weight: 300;
+	line-height: 1;
+	margin: 36px 0 0;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.2;
+	margin: 18px 0 60px;
+}
+fieldset {
+	border: none;
+	background: rgba(255, 255, 255, 0.3);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 50px 0;
+	width: 860px;
+}
+input[type="text"], 
+input[type="password"], 
+input[type="url"], 
+input[type="email"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: 300;
+	color: #848484;
+	height: 44px;
+	padding: 0 10px;
+}
+legend {
+	color: #292b31;
+	font-size: 22px
+}
+html.-moz-select {
+	padding: 3px 5px
+}
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="url"]:focus, 
+input[type="email"]:focus, 
+textarea:focus {
+	background: #fffef4;
+}
+input[type="submit"], 
+input[type="button"] {
+	background: #222;
+	border: none;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	border-radius: 22px;
+	color: #fff!important;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+	height: 44px;
+	line-height: 44px;
+	margin: 0 5px 2px 12px;
+	padding: 0 30px;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out
+}
+input[type="submit"]:hover, 
+input[type="button"]:hover {
+	background: #fff;
+	color: #222!important;
+}
+label {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 0 8px;
+	text-transform: uppercase
+}
+/* messages */
+#system-message {
+	margin: -50px 0 40px 0;
+}
+#system-message dt {
+	display: none;
+}
+#system-message dd ul {
+	list-style: none!important;
+	margin: 0;
+}
+#system-message dd {
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: #76acfc;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0;
+	min-height: 30px;
+	padding: 12px 0!important;
+	text-align: center;
+}
+#system-message .error {
+	background: #f47264;
+	color: #fff;
+}
+#system-message .notice {
+	background: #fad260;
+	color: #fff;
+}
+
+@media (max-width: 960px) {
+	#wrapper {
+		padding: 60px;
+	}
+	#gkPage {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		max-width: 100%;
+		padding: 20px;
+	}
+	#wrapper > div, 
+	#wrapper > div + div, 
+	#wrapper > div + div + div {
+		clear: both;
+		float: none;
+		width: 100%;
+	}
+	h1 {
+		font-size: 160px;
+		letter-spacing: -3px;
+		margin: -20px 0 10px 0;
+		text-align: center;
+	}
+	h2 {
+		font-size: 32px;
+	}
+	h3 {
+		font-size: 22px;
+	}
+	#system-message {
+		margin: -20px 0 30px 0;
+	}
+	#system-message ul {
+		margin: 0;
+		padding: 0;
+	}
+	fieldset {
+		padding: 20px 0;
+		width: 280px;
+	}
+	fieldset input {
+		margin-bottom: 10px;
+	}
+	fieldset input[type="submit"] {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 600px) {
+	#wrapper {
+		padding: 20px;
+	}
+	#gkPage {
+		margin: 12px 0!important;
+	}
+	h1 {
+		font-size: 120px;
+		letter-spacing: 0;
+		margin: -20px 0 10px 0;
+		text-align: center;
+	}
+	h2 {
+		font-size: 26px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+}

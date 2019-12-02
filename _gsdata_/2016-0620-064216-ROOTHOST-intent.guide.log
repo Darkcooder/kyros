@@ -1,0 +1,9 @@
+2016-06-20 06:42:21: -- Analysis Started by On File Change Incremental
+2016-06-20 06:42:22: Изменений: 3, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0/0, Ошибок: 0, All: 13825
+2016-06-20 06:42:22: Left to Right: Copy File: 3 
+2016-06-20 06:42:23: == Sync Started by On File Change Incremental
+2016-06-20 06:42:24: Скопировано поверх 'C:/Users/Владимир/OneDrive/IntentGuide/www/.idea/deployment.xml' -> 'sftp://intent.guide/var/www/webmaster/data/www/intent.guide/.idea/deployment.xml'
+2016-06-20 06:42:25: Скопировано поверх 'C:/Users/Владимир/OneDrive/IntentGuide/www/.idea/webServers.xml' -> 'sftp://intent.guide/var/www/webmaster/data/www/intent.guide/.idea/webServers.xml'
+2016-06-20 06:42:26: Скопировано поверх 'C:/Users/Владимир/OneDrive/IntentGuide/www/.idea/workspace.xml' -> 'sftp://intent.guide/var/www/webmaster/data/www/intent.guide/.idea/workspace.xml'
+2016-06-20 06:42:29: ===== Синхронизация завершена. Время 00:00:06, Скорость: 44,6 КБ/s файлов/сек =====, Синхронизировано: 3, Ошибок: 0
+2016-06-20 06:42:30: 

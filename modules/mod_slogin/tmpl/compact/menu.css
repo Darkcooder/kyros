@@ -1,0 +1,31 @@
+#menuIcon{
+    margin: 5px;
+    margin-top:0;
+    cursor: pointer;
+}
+
+.mainMenu{
+
+}
+
+.mainMenu li{
+    display: block !important;
+    background-color: #fff;
+    border: solid 1px #eee;
+    border-left: #eee solid 3px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px !important;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.mainMenu li:hover{
+    background-color: #eee;
+    border-left: #e37917 solid 3px;
+}
+
+.mainMenu img{
+    float: left;
+    margin-right: 5px;
+}
